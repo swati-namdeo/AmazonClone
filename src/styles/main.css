@@ -1,0 +1,124 @@
+
+.bodyGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0em;
+    row-gap: 0em;
+    margin: 18% 10% 5%;
+    background-image: linear-gradient(to bottom, transparent 1%, #8dc6c1, #b8e0d3); 
+ 
+}
+
+.AddtoBucketBtn{
+    background-color: rgb(180, 128, 33);
+    border: 1px solid black;
+    
+}
+.GotoBucketBtn{
+    background-color: rgb(180, 128, 33);
+    border: 1px solid black;
+    height: 3em;
+    width: auto;
+    padding: 0px 2em;
+    
+}
+
+#goToBtnDiv{
+    position: fixed;
+  right: 0px; bottom: 0px;
+  /* margin: 0px 6em 5vh 0px; */
+  margin: 0px 1vh 1vh 0px;
+  padding: 5px;
+}
+
+.btnAddCart{
+    text-align: center;
+}
+.productImage{
+    text-align: center;
+}
+.imageProduct{
+    height: 20rem;
+    width: 20em;
+}
+.rateDiv{
+    font-weight: bold;
+}
+
+.productsData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 1em;
+    padding: 1em 5em;
+}
+.heartColor{
+    color: rgb(206, 126, 50);
+}
+
+.toast-message-add-bucket{
+    background-color: rgb(85, 241, 85);
+    font-size: 22px;
+    padding: 2em;
+}
+
+.categoryDiv{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    background-image: linear-gradient(#5b6c82, #445a77);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1hv 0px;
+}
+
+#categoryLoader{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+    width: 100%;
+}
+
+.bodyGridSearch{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0em;
+    row-gap: 0em;
+    margin: 2% 10% 5%;
+    width: fit-content;
+    background-image: linear-gradient( #8dc6c1, #b8e0d3); 
+}
+
+
+@media screen and (max-width: 450px) {
+    .bodyGrid{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+        margin-top: 6em;
+    }
+    .bodyGridSearch{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+        margin-top: 6em;
+    }
+    #goToBtnDiv{
+        position: fixed;
+      right: 0px; bottom: 0px;
+      margin: 0px 0px 5vh 0px;
+      padding: 5px;
+    }
+
+    .imageProduct{
+        height: 12rem;
+        width: 12em;
+    }
+    .categoryDiv{
+       display: none;
+    }
+}

@@ -1,0 +1,110 @@
+.footerBase{
+    height: 5vh;
+    width: -webkit-fill-available;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    background-image: linear-gradient(#5b6c82, #445a77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footerBase:hover{
+    background-image: linear-gradient(#5b6c82, #7d96b5);
+}
+
+.linkForWebsite{
+    text-decoration: none;
+}
+#backToTopTxt{
+    font-size: 18px;
+    background-image: linear-gradient(#5b6c82, #375174);
+    text-align: center;
+    height: 3vh;
+    padding: 1vh 0px;
+    margin-bottom: 2px;
+}
+
+#backToTopTxt:hover{
+    background-image: linear-gradient(#677c96, #527299);
+   
+}
+/* .footerDivs{
+    display: flex;
+    flex-direction: row;
+} */
+
+.footerDivs{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    background-image: linear-gradient(#5b6c82, #445a77);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoLink{
+    width: 16em;
+    height: 10em;
+}
+
+.footerLogo{
+    height: 100%;
+    width: 100%;
+}
+.footerDivs a{
+    color: silver;
+}
+.footerDivs a:visited {
+    color: silver;
+  }
+  .footerDivs ul li{
+    list-style-type: none;
+    color: rgb(234, 233, 236);
+  }
+.footerDivs span{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+  .footerWithDetails{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    background-image: linear-gradient(#3a424b, #131921);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0px;
+  }
+  .footerWithDetails a{
+    color: silver;
+}
+#someAnchorDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 450px) {
+    /* .footerBase{
+        height: 5vh;
+        width: -webkit-fill-available;
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        border: none;
+        background-image: linear-gradient(#5b6c82, #445a77);
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    } */
+  }

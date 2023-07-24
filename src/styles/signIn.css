@@ -1,0 +1,62 @@
+.signInContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+.signInContainer img{
+    width:20%;
+    height: 10%;
+}
+
+.signInBox{
+    background-color: rgb(225, 220, 220);
+    padding: 0em 4em 3em 4em;
+    width: 25%;
+    border-radius: 2em;
+}
+#txtSign{
+    font-size: 3em;
+    margin: 20px 0px;
+}
+ .signInBox input{
+   width: 100%;
+   height: 2em;
+} 
+.signInBox label{
+    width: 100%;
+ } 
+.signInBox button{
+    background-color: rgb(180, 128, 33);
+    border: 1px solid black;
+    width: 101%;
+    height: 3em;
+ }  
+ .signInBox span{
+     color: red;
+     font-size: 14px;
+ } 
+ .signUpBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+ }
+ .signUpBtn button{
+    background-image: linear-gradient(silver, white);
+    border: 1px solid black;
+    width: 100%;
+    height: 3em;
+    border-radius: 1em;
+ }  
+
+ @media screen and (max-width: 450px) {
+    .signInBox{
+        width: 60%;
+    }
+    .signInContainer img{
+        width:50%;
+        height: 50%;
+    }
+}

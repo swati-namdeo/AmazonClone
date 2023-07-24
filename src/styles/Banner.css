@@ -1,0 +1,29 @@
+.banner{
+    position: absolute;
+    width: -webkit-fill-available; 
+    /* z-index: -1; */
+     -webkit-mask-image: linear-gradient(
+              to top,
+              transparent 30%,
+              white 99%
+            ); 
+    
+  
+}
+
+
+.banner svg {
+    color: white;
+    margin: 0 15px;
+    width: 50px;
+    height: 55%;
+  }
+  .banner svg:hover {
+    color: white;
+    margin: 0 15px;
+    width: 50px;
+    height: 55%;
+  }
+
+
+

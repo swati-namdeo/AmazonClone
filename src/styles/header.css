@@ -1,0 +1,124 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: #131921;
+    padding: 1% 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+#firstLogo{
+    width: 8%;
+}
+#searchBox{
+   /* display: inline;
+   padding: 0px;
+   margin: 0px;
+   height: 8%;
+   width: 70%; */
+   width: 65%;
+   position: relative;
+   display: flex;
+   margin: 0px 3em 0px 1em;
+}
+.imageLogo{
+    height: 100%;
+    width: 100%;
+}
+
+.searchBar{
+    /* height: 2em;
+    flex-wrap: wrap;
+    width: 90%; */
+    width: 100%;
+  border: 3px solid rgb(180, 128, 33);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: large;
+}
+.searchBtn{
+   width: 40px;
+  height: 36px;
+  border: 1px solid rgb(180, 128, 33);
+  background: rgb(180, 128, 33);
+  text-align: center;
+  color: #000;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}  
+
+.helloTxt{
+    font-size: 20px; 
+}
+#userDivTxt{
+    width: 9em;
+    margin-left: -2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#userNameTxt{
+    font-size: 20px;
+    margin-left: -20%;
+    
+}
+
+.linkHead{
+    margin-top: 1vh;
+    color: white;
+    font-weight: bold;
+}
+
+#linkOrderIcon{
+    margin-top: 2vh;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    width: 2em;
+}
+#orderCount{
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    #firstLogo{
+        width: 25vh;
+    }
+    /*
+      */
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        background-color: #131921;
+        padding: 1% 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    #searchBox{
+        margin: 0px 3em 0px 1vh;
+        width: 90%;
+     }
+   
+    #userDivTxt{
+        width: 8em;
+        margin-left: 0px;
+    
+    }
+    #userNameTxt{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .linkHead{
+      width: 9em;
+      margin-left: 1em;
+    }
+    #linkOrderIcon{
+      margin-left: 2vh;
+    }
+    
+}

@@ -1,0 +1,64 @@
+#txtYourShopping{
+    font-weight: bold;
+}
+
+#advCheckoutBox{
+    display: flex;
+    flex-direction: row;
+}
+#checkOutDiv{
+    background-color: rgb(233, 230, 230);
+    width: -webkit-fill-available;
+     display: flex;
+     flex-wrap: wrap;
+   padding: 4em 2em 2em 2em;
+   margin: 2em 2em 2em 2em;
+   border: 1px solid silver;
+}
+.countProduct{
+    padding: 2% 0px;
+    
+}
+
+.proceedtoCheckBtn{
+    background-color: rgb(180, 128, 33);
+    border: 1px solid black;
+    width: 100%;
+    height: 3em;
+}
+#ImgDivAdvertizement{
+    width: 80%;
+}
+#ImgDivAdvertizement img{
+width : -webkit-fill-available;
+}
+
+.bucketList{
+    display: flex;
+    flex-direction: row;
+}
+.imageBucketList{
+    width: 11em;
+    height: 11em;
+    margin: 2em;
+}
+
+.deleteFromBucketBtn{
+    background-color:  rgb(180, 128, 33);;
+}
+
+.productTitle{
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+
+@media screen and (max-width: 450px) {
+    #advCheckoutBox{
+        display: flex;
+        flex-direction: column;
+    }
+    #ImgDivAdvertizement {
+        width: 100%;
+    }
+}
